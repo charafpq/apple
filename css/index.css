@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    padding: 10px;
+
+}
+section h1 {
+    background: cyan;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    margin: 30px 0 30px 0;
+    color: white;
+}
+h2 {
+    margin: 20px 0 30px 5px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header nav a:hover {
+    color: orange;
+}
+
+section ul {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+section h2 {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+section ol {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#sp {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+/* les button */
+.btn-section {
+    padding: 30px;
+
+}
+.mybtn {
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+    display: inline-block;
+}
+.mybtn-green {
+    background-color: greenyellow;
+    color: white;
+}
+.mybtn-green:hover {
+    background-color: rgb(123, 185, 30);
+}
+.mybtn-red {
+    background-color: red;
+    color: white;
+}
+.mybtn-red:hover {
+    background-color: rgb(179, 0, 0);
+}
+.mybtn-orange {
+    background-color: orange;
+    color: white;
+}
+.mybtn-orange:hover {
+    background-color: rgb(185, 121, 0);
+}
+.mybtn-blue {
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.mybtn-yellow {
+    background-color: yellow;
+    color: white;
+}
+.mybtn-yellow:hover {
+    background-color: rgb(201, 201, 0);
+}
+.mybtn-purple {
+    background-color: purple;
+    color: white;
+}
+.mybtn-purple:hover {
+    background-color: rgb(95, 0, 95);
+}
+.mybtn-large {
+    padding: 30Px 50px;
+}
+.mybtn-blue-outline {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.mybtn-blue-outline:hover {
+    background-color: blue;
+    color: white;
+}
+.mybtn-yellow-outline {
+    background-color: white;
+    color: yellow;
+    border: 1px solid yellow;
+}
+.mybtn-yellow-outline:hover {
+    background-color: yellow;
+    color: white;
+}
+.mybtn-green-outline {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.mybtn-green-outline:hover {
+    background-color: green;
+    color: white;
+}
+.mybtn-purple-outline {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+}
+.mybtn-purple-outline:hover {
+    background-color: purple;
+    color: white;
+}
+.mybtn-orange-outline {
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
+.mybtn-orange-outline:hover {
+    background-color: orange;
+    color: white;
+}
+.mybtn-red-outline {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+.mybtn-red-outline:hover {
+    background-color: red;
+    color: white;
+}
+.mybtn-link {
+    background-color: transparent;
+    color: gray;
+}
+.mybtn-link:hover {
+    color: rgb(39, 39, 39);
+}
+.shadow:hover {
+    box-shadow: 0px 0px 8px  rgb(0, 89, 255);
+}
+.border-radius {
+    border-radius: 30px;
+}
+.myrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mycol-1 {
+    width: 8.33%;
+}
+.mycol-2 {
+    width: 16.66%;
+}
+.mycol-3 {
+    width: 25%;
+}
+.mycol-4 {
+    width: 33.33%;
+}
+.mycol-5 {
+    width: 41.66%;
+}
+.mycol-6 {
+    width: 50%;
+}
+.mycol-7 {
+    width: 58.33%;
+}
+.mycol-8 {
+    width: 66.66%;
+}
+.mycol-9 {
+    width: 75%;
+}
+.mycol-10 {
+    width: 83.33%;
+}
+.mycol-11 {
+    width: 91.66%;
+}
+.mycol-12 {
+    width: 100%;
+}
+
+#gotop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.377);
+    text-align: center;
+    padding-top: 13px;
+    transition: all 1s ease;
+}
+#gotop:hover {
+    color: white;
+    background-color: cyan;
+}
+.sticky {
+    position: sticky;
+    top: 0%;
+    z-index: 9999;
+}
+
+#mymenu ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 25px 60px;
+}
+#mymenu li {
+    display: inline-block;
+    padding-left: 20px;
+}
+#mymenu li a {
+    border-bottom: 2px solid rgba(255, 166, 0, 0);
+
+}
+#mymenu li a:hover { 
+    border-bottom: 2px solid rgb(255, 166, 0);
+    padding-bottom: 15Px;
+}
+
+#test-relative {
+    background: url(../images/GettyImages-164861496_medium.jpg) no-repeat center center scroll;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+#test-absolute {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    width: 100%;
+    padding: 30px;
+}
+.absolute-text {
+    background-color: rgba(0, 0, 0, 0.384);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#social ul {
+    list-style-type: none;
+    margin: 0;
+
+}
+#social li {
+    display: inline-block;
+    margin: 20px;
+    font-size: 19px;
+    transition: all 1s ease;
+}
+
+
+#social a span {
+    text-decoration: none;
+}
+#social #up {
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 400Px;
+    text-align: left;
+}
+.carousel-item {
+    height: 100vh;
+
+}
+.carousel-caption.d-none.d-md-block {
+    background: linear-gradient(0deg, #000000c7, transparent);
+    width: 100%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 30Px 0 60px 0;
+}
+
+#login-form {
+    margin: auto;
+    width: 500Px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 520px;
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+}
+
+#login-photo {
+    border-radius: 50%; 
+    border: white solid 5Px; 
+    width: 80px; 
+    height: 80px; 
+    background: url(../images/blank-profile-picture-973460_640.png)center center ;background-size: cover;
+    margin: auto;
+    transform: translate(0%,-50%);
+}
+#login-items {
+    padding: 20px 30px 50px 30px;
+
+}
+#login-items p {
+    border-left: 3Px solid rgba(66, 0, 66, 0);
+    border-top-left-radius: 6Px;
+    padding-left: 0px;
+    transition: all 0.5s ease;
+    cursor: default;
+    margin-left: 10px;
+    font-size: 19px;
+}
+#login-items p:hover {
+    border-left: 3Px solid rgb(66, 0, 66);
+    padding-left: 10px;
+    margin-left: 0px;
+}
+
+#login-items p input {
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    border-bottom: 2Px solid rgb(66, 0, 66);
+    border-right:  2Px solid rgb(66, 0, 66);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+    width: 250Px;
+    height: 30px;
+    font-size: 15px;
+}
+#login-check {
+    margin: -35px 50px 0px 50px;
+    padding: 0 30px 0px 30px;
+}
+#login-check p input {
+    transform: scale(1.7);
+}
+#sign-btn::after {
+    content: 'SignUP';
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: -86%;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s ease;
+    letter-spacing: 15px;
+}
+#sign-btn::before {
+    content: '';
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -62.5%;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 120px orangered;
+    opacity: 0;
+}
+#sign-btn:hover:after{
+    opacity: 0.5;
+    letter-spacing: 5px;
+    left: -81%;
+}
+#sign-btn:hover::before{
+    opacity: 0.5;
+    width: 80px;
+    left: -53%;
+}
+
+#login-btn::after {
+    content: 'login';
+    color: white;
+    position: absolute;
+    top: 10%;
+    right: -80%;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s ease;
+    letter-spacing: 15px;
+}
+#login-btn::before {
+    content: '';
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: -62.5%;
+    pointer-events: none;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    box-shadow: 0 0 120px orangered;
+    opacity: 0;
+}
+#login-btn:hover:after{
+    opacity: 0.5;
+    letter-spacing: 5px;
+    right: -75%;
+}
+#login-btn:hover::before{
+    opacity: 0.5;
+    width: 80px;
+    right: -53%;
+}
+
+br {
+    user-select: none;
+}
+a.facebook, a.linkedin, a.instagram, a.youtube {
+    display: inline-block;
+    width: 35px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 100%;
+    height: 35px;
+    text-align: center;
+    padding-top: 3px;
+    transition: all 0.6s ease;
+}
+a.facebook:hover {
+    background-color: #4f9bf7;
+    color: white;
+    transform: rotateZ(360deg);
+}
+a.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    transform: rotateZ(360deg);
+}
+a.linkedin:hover {
+    background-color: #3467c2;
+    color: white;
+    transform: rotateZ(360deg);
+}
+a.youtube:hover {
+    background-color: #e62e2d;
+    color: white;
+    transform: rotateZ(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+    .mycol-4 {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:500px){
+    .mycol-4 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:991px){
+    a.nav-link.active.text-center:hover {
+        background-color: gray;
+    }
+    li.nav-item:hover{
+        background-color: gray;
+    }
+}
