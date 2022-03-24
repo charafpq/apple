@@ -96,8 +96,19 @@ header div ul li a:hover {
     color: white;
     padding: 40px;
 }
+@media only screen and (max-width: 992px){
+    .iphoto-desc {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+}
 
 
+@media only screen and (max-width:1011px){
+    .myopacity-0 {
+        opacity: 0;
+    }
+}
 
 @keyframes text-float {
     0% { transform: translateY(0%);}
